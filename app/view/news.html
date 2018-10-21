@@ -1,0 +1,22 @@
+<!-- app/view/news/list.tpl -->
+<html>
+  <head>
+    <title>新闻列表</title>
+    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <ul class="list-group">
+              {% for item in items %}
+              <li class="list-group-item">
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+              {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

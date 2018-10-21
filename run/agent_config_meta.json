@@ -1,0 +1,266 @@
+{
+  "keys": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js"
+    },
+    "root": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "name": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "version": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "description": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "main": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "author": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "license": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg-view-nunjucks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "bootstrap": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "egg": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "jquery": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "nunjucks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "popper.js": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "env": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "level": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "port": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"
+}
