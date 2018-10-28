@@ -3,11 +3,14 @@
   "view": {
     "defaultViewEngine": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js",
     "mapping": {
-      ".tpl": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js"
+      ".html": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js"
     },
     "root": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.default.js",
     "cache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "newsListUrl": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/config.default.js"
   },
   "session": {
     "maxAge": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-session/config/config.default.js",
@@ -147,6 +150,14 @@
     "lstripBlocks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.default.js",
     "cache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks/config/config.local.js"
   },
+  "ejs": {
+    "root": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs/config/config.default.js"
+  },
   "env": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
   "name": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
   "proxy": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
@@ -171,6 +182,7 @@
       "bootstrap": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
       "egg": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
       "egg-bin": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
       "jquery": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
       "nunjucks": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js",
       "popper.js": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/config.default.js"

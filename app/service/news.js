@@ -10,6 +10,10 @@ class NewsService extends Service {
       dataType:'json'
     })
     let items = result.data.data //data是响应体
+    
+    items.forEach(item => {
+      item.createAt = this.ctx.helper.fromNow(item.createAt)
+    });
     return items
   }
 }

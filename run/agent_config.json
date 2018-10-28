@@ -141,7 +141,7 @@
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
-        ".tpl": "nunjucks"
+        ".html": "nunjucks"
       }
     },
     "nunjucks": {
@@ -150,6 +150,14 @@
       "trimBlocks": false,
       "lstripBlocks": false,
       "cache": false
+    },
+    "ejs": {
+      "root": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/app/view",
+      "cache": false,
+      "debug": false,
+      "compileDebug": true,
+      "delimiter": null,
+      "strict": false
     },
     "env": "local",
     "name": "2.egg",
@@ -176,6 +184,7 @@
         "bootstrap": "^4.1.3",
         "egg": "^2.12.0",
         "egg-bin": "^4.9.0",
+        "egg-view-ejs": "^2.0.0",
         "jquery": "^3.3.1",
         "nunjucks": "^3.1.3",
         "popper.js": "^1.14.4"
@@ -275,6 +284,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "newsListUrl": "https://www.easy-mock.com/mock/5b923eb2321f1076a4fc13f4/api/news"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"
@@ -439,6 +451,19 @@
       "from": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/plugin.js",
       "path": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "ejs": {
+      "enable": true,
+      "package": "egg-view-ejs",
+      "name": "ejs",
+      "dependencies": [
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/config/plugin.js",
+      "path": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view-ejs",
+      "version": "2.0.0"
     }
   }
 }

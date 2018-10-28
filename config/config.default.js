@@ -11,7 +11,21 @@ module.exports = appInfo => {
     },
   };
   config.news = {
-    newsListUrl: 'https://www.easy-mock.com/mock/5b923eb2321f1076a4fc13f4/api/news',
+    newsListUrl: 'https://easy-mock.com/mock/5bd5a5c182302f7129a27fee/example_copy/mock',
+  }
+  // config.logger = {
+  //   level:'DEBUG'
+  // }
+  config.middleware = [
+    'cost','robot'
+  ]
+  config.cost = {
+    name:'yuanyuan'
+  }
+  config.robot = {
+    ua:[
+      /Chrome/
+    ]
   }
   return config;
 };

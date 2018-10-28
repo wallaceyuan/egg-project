@@ -99,7 +99,6 @@
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/config/locales",
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-schedule/config/locales",
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart/config/locales",
-        "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development/config/locales",
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-logrotator/config/locales",
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-static/config/locales",
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-view/config/locales",
@@ -114,7 +113,7 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-watcher/lib/event-sources/development"
@@ -123,7 +122,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/logs/2.egg/egg-schedule.log"
+        "file": "/Users/yuanyuan/logs/2.egg/egg-schedule.log"
       }
     },
     "multipart": {
@@ -142,13 +141,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -163,15 +155,16 @@
       "dir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
+      "buffer": true,
       "maxFiles": 1000,
+      "maxAge": 31536000,
       "files": "<LRU>"
     },
     "view": {
       "root": [
         "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/app/view"
       ],
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -183,17 +176,17 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
     "ejs": {
       "root": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/app/view",
-      "cache": false,
+      "cache": true,
       "debug": false,
       "compileDebug": true,
       "delimiter": null,
       "strict": false
     },
-    "env": "local",
+    "env": "prod",
     "name": "2.egg",
     "keys": "<String len: 11>",
     "proxy": false,
@@ -206,7 +199,8 @@
       "description": "",
       "main": "index.js",
       "scripts": {
-        "start": "egg-bin dev"
+        "start": "cross-env EGG_SERVER_ENV=local egg-bin dev",
+        "test": "egg-bind test"
       },
       "keywords": [],
       "author": "",
@@ -216,10 +210,12 @@
       },
       "devDependencies": {
         "bootstrap": "^4.1.3",
+        "cross-env": "^5.2.0",
         "egg": "^2.12.0",
         "egg-bin": "^4.9.0",
         "egg-view-ejs": "^2.0.0",
         "jquery": "^3.3.1",
+        "moment": "^2.22.2",
         "nunjucks": "^3.1.3",
         "popper.js": "^1.14.4"
       }
@@ -257,21 +253,19 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/logs/2.egg",
+      "dir": "/Users/yuanyuan/logs/2.egg",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "2.egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "application"
     },
@@ -308,8 +302,7 @@
       "overrideMethod",
       "session",
       "securities",
-      "i18n",
-      "eggLoaderTrace"
+      "i18n"
     ],
     "workerStartTimeout": 600000,
     "cluster": {
@@ -325,11 +318,23 @@
     },
     "onClientError": null,
     "news": {
-      "newsListUrl": "https://www.easy-mock.com/mock/5b923eb2321f1076a4fc13f4/api/news"
+      "newsListUrl": "https://easy-mock.com/mock/5bd5a5c182302f7129a27fee/example_copy/mock"
+    },
+    "middleware": [
+      "cost",
+      "robot"
+    ],
+    "cost": {
+      "name": "yuanyuan"
+    },
+    "robot": {
+      "ua": [
+        {}
+      ]
     },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -439,21 +444,6 @@
       "from": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/plugin.js",
       "path": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-multipart",
       "version": "2.2.1"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/yuanyuan/Documents/yuanyuan/Project/2.egg/node_modules/egg-development",
-      "version": "2.4.1"
     },
     "logrotator": {
       "enable": true,
